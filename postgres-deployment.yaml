@@ -40,6 +40,10 @@ spec:
           env: 
             - name: POSTGRES_PASSWORD
               value: abc123
+            - name: POSTGRES_USER
+              value: hydra
+            - name: POSTGRES_DB
+              value: hydra
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
